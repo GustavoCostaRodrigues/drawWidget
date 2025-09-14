@@ -51,7 +51,7 @@ export default function DrawPage() {
           display: 'flex',
           gap: 36,
           padding: 16,
-          backgroundColor: '#f0f0f0',
+          backgroundColor: '#ffffff',
           justifyContent: 'center',
           alignItems: 'center',
           position: 'relative', // Essencial para o zIndex funcionar
@@ -67,7 +67,7 @@ export default function DrawPage() {
             border: 'none',
             padding: '0 24px',
             cursor: 'pointer',
-            backgroundColor: '#ffffff',
+            backgroundColor: '#f1f4f8',
             boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
           }}
         >
@@ -83,7 +83,7 @@ export default function DrawPage() {
             border: 'none',
             padding: '0 24px',
             cursor: 'pointer',
-            backgroundColor: '#ffffff',
+            backgroundColor: '#f1f4f8',
             boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
           }}
         >
