@@ -8,7 +8,12 @@ export default function DrawPage() {
     <div style={{ height: "100vh", width: "100vw" }}>
       <Excalidraw
         ref={excalidrawRef}
-        initialData={{ elements: [], appState: {} }}
+        initialData={{ 
+          elements: [], 
+          appState: {
+            gridSize: 20 // Adicione esta linha dentro do appState
+          }
+        }}
         style={{ height: "100%", width: "100%" }}
       />
     </div>
